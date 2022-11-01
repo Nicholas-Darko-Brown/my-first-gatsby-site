@@ -17,6 +17,7 @@ const BlogPage = ({ data }: any) => {
     )
 }
 
+// Page Query
 export const query = graphql`
     query MyQuery {
         allFile {
