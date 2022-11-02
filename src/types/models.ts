@@ -17,6 +17,7 @@ export interface MDXProps {
     author: string
     date: string
     title: string
+    slug: string
   }
   parent: {
     id: string
