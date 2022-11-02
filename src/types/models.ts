@@ -9,3 +9,18 @@ export interface LayoutProps {
     };
   };
 }
+
+export interface MDXProps {
+  id: string
+  excerpt: string
+  frontmatter: {
+    author: string
+    date: string
+    title: string
+  }
+  parent: {
+    id: string
+    modifiedTime: string
+    name: string
+  }
+}
